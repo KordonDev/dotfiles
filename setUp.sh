@@ -3,6 +3,7 @@
 # zsh
 cat ~/.oh-my-zsh/templates/zshrc.zsh-template > ~/.zshrc
 echo "alias vi='vim'" >> ~/.zshrc 
+echo "alias serve=\"python -m SimpleHTTPServer 8000\"" >> ~/.zshrc
 
 # vim
 brew install vim
