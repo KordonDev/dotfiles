@@ -14,3 +14,4 @@ Plug 'Raimondi/delimitMate'
 Plug 'ggreer/the_silver_searcher'
 
 call plug#end()
+set number
