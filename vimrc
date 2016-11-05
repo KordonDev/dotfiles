@@ -12,9 +12,12 @@ Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'Raimondi/delimitMate'
 " Navigation
 Plug 'ggreer/the_silver_searcher'
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 set number
 set autoindent
+set expandtab
+set tabstop=4
 set backspace=indent,eol,start
 
