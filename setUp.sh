@@ -11,7 +11,7 @@ mkdir -p ~/.nvm
 cat ~/.oh-my-zsh/templates/zshrc.zsh-template > ~/.zshrc
 echo "alias vi='vim'" >> ~/.zshrc 
 echo "alias serve=\"python -m SimpleHTTPServer 8000\"" >> ~/.zshrc
-echo "export NVM_DIR=~/.nvm" >> "/.zshrc
+echo "export NVM_DIR=~/.nvm" >> ~/.zshrc
 echo source $(brew --prefix nvm)/nvm.sh >> ~/.zshrc
 
 
