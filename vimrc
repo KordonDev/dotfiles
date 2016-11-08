@@ -17,8 +17,8 @@ Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 set number
 set autoindent
-set expandtab
 set backspace=indent,eol,start
 set tabstop=4
 set shiftwidth=4
+set expandtab
 
