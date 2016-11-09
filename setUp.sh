@@ -3,6 +3,7 @@
 # brew
 
 brew install nvm
+brew install cmake
 
 # structure
 mkdir -p ~/.nvm
@@ -20,4 +21,4 @@ brew install vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 cat ./vimrc > ~/.vimrc
 
-
+echo Done!

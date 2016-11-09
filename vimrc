@@ -5,7 +5,7 @@ Plug 'sheerun/vim-polyglot'
 " Code analysis
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 " autocomlete
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', {'do': './install.py --tern-completer'}
 Plug 'marijnh/tern_for_vim'
 Plug 'othree/javascript-libraries-syntax.vim'
 " autoclose
