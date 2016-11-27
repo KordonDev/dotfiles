@@ -15,7 +15,7 @@ echo "alias serve=\"python -m SimpleHTTPServer 8000\"" >> ~/.zshrc
 echo "export NVM_DIR=~/.nvm" >> ~/.zshrc
 echo source $(brew --prefix nvm)/nvm.sh >> ~/.zshrc
 echo "unsetopt inc_append_history" >> ~/.zshrc
-echo "unsetopt share_history" >> ~./zshrc
+echo "unsetopt share_history" >> ~/.zshrc
 
 # vim
 brew install vim
