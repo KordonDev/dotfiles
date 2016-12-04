@@ -26,6 +26,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set mouse=nicr
+set noswapfile
 
 let g:UltiSnipsExpandTrigger           = '<tab>'
 let g:UltiSnipsJumpForwardTrigger      = '<tab>'
