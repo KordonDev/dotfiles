@@ -28,6 +28,8 @@ set expandtab
 set mouse=nicr
 set noswapfile
 
+hi Visual term=reverse cterm=reverse guibg=Grey
+
 let g:UltiSnipsExpandTrigger           = '<tab>'
 let g:UltiSnipsJumpForwardTrigger      = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
