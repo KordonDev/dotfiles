@@ -18,6 +18,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
+" Autoformat
+Plug 'Chiel92/vim-autoformat'
+
 call plug#end()
 set number
 set autoindent
