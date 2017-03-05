@@ -4,6 +4,7 @@
 
 brew install nvm
 brew install cmake
+brew install autojump
 
 # structure
 mkdir -p ~/.nvm
