@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " Syntax higlighting
 Plug 'sheerun/vim-polyglot'
+Plug 'mxw/vim-jsx'
 " Code analysis
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 " autocomlete
@@ -43,3 +44,5 @@ let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
 if executable('ag')
     let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
+
+let g:jsx_ext_required = 0
