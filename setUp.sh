@@ -13,6 +13,9 @@ mkdir -p ~/.nvm
 rm ~/.zshrc
 ln -s "$(pwd)/zshrc" ~/.zshrc
 
+# zsh code highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
 # vim
 brew install vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
