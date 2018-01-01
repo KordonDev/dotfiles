@@ -1,4 +1,3 @@
-zmodload zsh/zprof
 # If you come from bash you might have to change your $PATH.
 #
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -91,4 +90,4 @@ export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 unsetopt inc_append_history
 unsetopt share_history
-zprof
+alias rm='trash'
