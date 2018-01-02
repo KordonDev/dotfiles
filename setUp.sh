@@ -5,6 +5,7 @@
 brew install nvm
 brew install cmake
 brew install autojump
+brew install trash
 
 # structure
 mkdir -p ~/.nvm
