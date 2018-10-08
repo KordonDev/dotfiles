@@ -94,3 +94,4 @@ source $(brew --prefix nvm)/nvm.sh
 unsetopt inc_append_history
 unsetopt share_history
 alias rm='trash'
+alias rebase="git checkout master && get pull --rebase && git checkout - && git rebase master"
