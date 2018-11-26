@@ -31,6 +31,7 @@ set shiftwidth=4
 set expandtab
 set mouse=nicr
 set noswapfile
+set encoding=utf-8
 
 hi Visual term=reverse cterm=reverse guibg=Grey
 
