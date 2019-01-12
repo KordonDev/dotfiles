@@ -6,6 +6,7 @@ brew install nvm
 brew install cmake
 brew install autojump
 brew install trash
+brew install vim --with-lua --with-override-system-vi
 
 # structure
 mkdir -p ~/.nvm

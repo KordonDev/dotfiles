@@ -1,3 +1,7 @@
+# Before
+
+* Brew needs to be installed
+
 # Autosetup new enviroment
 
 Configures my macs.
@@ -6,4 +10,4 @@ Configures my macs.
 
 Open vi and execute `PlugInstall` to instal the plugins.
 
-~/.vim/plugged/YouCompleteMe
+`~/.vim/plugged/YouCompleteMe/install.sh`
