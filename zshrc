@@ -87,8 +87,9 @@ source $ZSH/oh-my-zsh.sh
 #
 alias git='LC_ALL=C git'
 
+alias python=/usr/local/bin/python3
 alias vi='vim'
-alias serve="python -m SimpleHTTPServer 8000"
+alias serve="python -m SimpleHTTPServer 3000"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 unsetopt inc_append_history
