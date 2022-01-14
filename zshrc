@@ -96,3 +96,4 @@ unsetopt inc_append_history
 unsetopt share_history
 alias rm='trash'
 alias rebase="git checkout master && git pull --rebase && git checkout - && git rebase master"
+alias portblock='f() { sudo lsof -i -P | grep LISTEN | grep "$1"}; f'
