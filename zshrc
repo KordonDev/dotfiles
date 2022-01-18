@@ -97,3 +97,4 @@ unsetopt share_history
 alias rm='trash'
 alias rebase="git checkout master && git pull --rebase && git checkout - && git rebase master"
 alias portblock='f() { sudo lsof -i -P | grep LISTEN | grep "$1"}; f'
+alias dockersh='f() { docker exec -it "$1" /bin/sh }; f'
