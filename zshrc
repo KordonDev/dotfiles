@@ -98,3 +98,6 @@ alias rm='trash'
 alias rebase="git checkout master && git pull --rebase && git checkout - && git rebase master"
 alias portblock='f() { sudo lsof -i -P | grep LISTEN | grep "$1"}; f'
 alias dockersh='f() { CONTAINER_NAME="$(docker ps -aqf name=$1)"; docker exec -it "$CONTAINER_NAME" /bin/sh; }; f'
+alias lvim=~/.local/bin/lvim
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+alias gdiff="GIT_EXTERNAL_DIFF=difft git diff"
